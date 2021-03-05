@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{D37F654D-5FF6-4C07-B558-BD3A56CB56D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3Projects", "S3Projects", "{FA3D597B-98E6-4224-8DAD-FDDE5CBCCAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Console", "S3Console\S3Console.csproj", "{9766BBB1-D3D2-4818-AF55-F629C43F7820}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SNSProject", "SNSProject", "{6BE97D4B-855D-4960-990F-AB9053B01780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSConsoleProject", "SNSConsoleProject\SNSConsoleProject.csproj", "{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQSProject", "SQSProject", "{E60F5610-B667-439E-A27C-7C1BA503B125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSConsoleProject", "SQSConsoleProject\SQSConsoleProject.csproj", "{79821893-4283-4ED8-B87D-FFCA7FAC0BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamoDbProjects", "DynamoDbProjects", "{2FE08136-3890-4235-BF6B-643089606C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDbProject", "DynamoDbProject\DynamoDbProject.csproj", "{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D37F654D-5FF6-4C07-B558-BD3A56CB56D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37F654D-5FF6-4C07-B558-BD3A56CB56D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37F654D-5FF6-4C07-B558-BD3A56CB56D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37F654D-5FF6-4C07-B558-BD3A56CB56D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9766BBB1-D3D2-4818-AF55-F629C43F7820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9766BBB1-D3D2-4818-AF55-F629C43F7820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9766BBB1-D3D2-4818-AF55-F629C43F7820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9766BBB1-D3D2-4818-AF55-F629C43F7820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79821893-4283-4ED8-B87D-FFCA7FAC0BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79821893-4283-4ED8-B87D-FFCA7FAC0BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79821893-4283-4ED8-B87D-FFCA7FAC0BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79821893-4283-4ED8-B87D-FFCA7FAC0BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9766BBB1-D3D2-4818-AF55-F629C43F7820} = {FA3D597B-98E6-4224-8DAD-FDDE5CBCCAA1}
+		{F9C6B5B3-957B-449F-9F4D-9E697EA15F0F} = {6BE97D4B-855D-4960-990F-AB9053B01780}
+		{79821893-4283-4ED8-B87D-FFCA7FAC0BD8} = {E60F5610-B667-439E-A27C-7C1BA503B125}
+		{C201863C-E1A9-4692-AA90-6CBC3D1A7DFC} = {2FE08136-3890-4235-BF6B-643089606C65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {258115AB-7812-49BB-B1EC-5360A75FB993}
+	EndGlobalSection
+EndGlobal
